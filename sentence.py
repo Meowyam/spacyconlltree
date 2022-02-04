@@ -15,7 +15,9 @@ con = init_parser(
 filename = sys.argv[-1]
 
 # empty output file
-open('spacy.conllu', 'w').close()
+
+# empty output file
+open(filename + '.conllu', 'w').close()
 
 with open(filename) as input:
   # for _ in range(4):
@@ -30,7 +32,7 @@ with open(filename) as input:
       conll = x._.conll_str
 
       for line in conll.splitlines()[2:]:
-        output = open('spacy.conllu', 'a+')
+        output = open(filename + '.conllu', 'a+')
         output.seek(0)
         checkEmpty = output.read(10)
         # if not empty \n
