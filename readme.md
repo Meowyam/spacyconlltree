@@ -24,7 +24,7 @@ If you are starting from a csv file, you will need to install pandas by running:
 
 on the command line of your terminal.
 
-![pip install pandas]("/readmeimg/pip1.png")
+![pip install pandas](/readmeimg/pip1.png)
 
 This is needed to extract the predicates from your csv file and generate your plain text input.
 
@@ -34,7 +34,7 @@ You will need to install the following python libraries for universal dependenci
 
 `pip install spacy spacy_udpipe spacy_conll`
 
-![pip install spacy spacy_udpipe spacy_conll]("/readmeimg/pip2.png")
+![pip install spacy spacy_udpipe spacy_conll](/readmeimg/pip2.png)
 
 You will also need to download the relevant spacy model for the language you're using.
 
@@ -44,4 +44,4 @@ For example, if your predicates are in English, run the following command in you
 
 The models can be found [here](https://spacy.io/usage/models).
 
-![screenshot of site spacy.io/usage/models]("/readmeimg/spacy.png")
+![screenshot of site spacy.io/usage/models](/readmeimg/spacy.png)
