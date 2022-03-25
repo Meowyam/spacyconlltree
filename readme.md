@@ -72,7 +72,7 @@ It isn't necessary to save the output to a file. The predicates will just print 
 
 2. Replace the name *pdpa_predicates.csv* with the name of your file, including the *.csv* ending.
 
-You will see the output printed in the terminal.
+You will see the output printed in the terminal:
 
 ![terminal output of predicates](/readmeimg/csv1.png)
 
