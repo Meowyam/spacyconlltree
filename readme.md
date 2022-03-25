@@ -78,17 +78,17 @@ You will see the output printed in the terminal.
 
 **Extracting and saving predicates into a separate file**
 
-3. Now let's save the output into a separate file.
+1. Now let's save the output into a separate file.
 Assuming our output file will be called *preds*, enter this in the terminal:
 
 `python pdpa_read_predicates.py pdpa_predicates.csv > preds`
 
 This creates the file preds, and saves the output from the command before *>* into preds.
 
-4. We can verify this by opening the file *preds*, or by entering in the terminal:
+2. We can verify this by opening the file *preds*, or by entering in the terminal:
 
 `cat preds`
 
 ![terminal output of predicates](/readmeimg/csv2.png)
 
-You will notice that the first four lines contain metadata. This will be ignored at the next step, creating the conllu file.
+You will notice that the first four lines contain metadata. This will be ignored at the next step, *creating the conllu file*.
