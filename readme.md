@@ -64,7 +64,7 @@ The example csv file provided in the repository is called *pdpa_predicates.csv*.
 
 It isn't necessary to save the output to a file. The predicates will just print to the console. This is fine if you're not going to use the output for anything, and you just want to view a small csv file with a few predicates.
 
-**Extracting predicates with saving**
+**Extracting predicates without saving**
 
 1. To extract the predicates without saving it to a separate file, enter this command in the terminal:
 
