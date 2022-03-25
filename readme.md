@@ -45,3 +45,44 @@ For example, if your predicates are in English, run the following command in you
 The models can be found [here](https://spacy.io/usage/models).
 
 ![screenshot of site spacy.io/usage/models](/readmeimg/spacy.png)
+
+***
+
+## BODY
+
+### For predicates extraction
+
+*Extract predicates from a csv to an input file for subsequent processing.*
+
+At the moment you have a csv file that contains rows of predicates. The goal here is to extract the predicates and save them as lines of text in an input file.
+
+There are two things to first note:
+- the name of your csv file
+- the filename that you want to save the output to
+
+The example csv file provided in the repository is called *pdpa_predicates.csv*. Let's assume the output file will be called *preds*.
+
+It isn't necessary to save the output to a file. The predicates will just print to the console. This is fine if you're not going to use the output for anything, and you just want to view a small csv file with a few predicates.
+
+To extract the predicates without saving it to a separate file, enter this command in the terminal:
+
+`python pdpa_read_predicates.py pdpa_predicates.csv`
+
+Replace the name *pdpa_predicates.csv* with the name of your file, including the *.csv* ending.
+
+You will see the output printed in the terminal.
+
+![terminal output of predicates](/readmeimg/csv1.png)
+
+Now let's save the output into a separate file.
+Assuming our output file will be called *preds*, enter this in the terminal:
+
+`python pdpa_read_predicates.py pdpa_predicates.csv > preds`
+
+This creates the file preds, and saves the output from the command before *>* into preds.
+
+We can try opening *preds* to verify this, or by entering in the terminal:
+
+`cat preds`
+
+![terminal output of predicates](/readmeimg/csv1.png)

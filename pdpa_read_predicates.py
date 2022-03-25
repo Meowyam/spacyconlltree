@@ -1,10 +1,13 @@
 import pandas as pd
 import numpy as np
 import re
+import sys
 
 fields = ['Predicates']
 
-df = pd.read_csv('pdpa_predicates.csv', skipinitialspace=True, usecols=fields)
+filename = sys.argv[-1]
+
+df = pd.read_csv(filename, skipinitialspace=True, usecols=fields)
 # See the keys
 print(df.keys())
 # See content in 'star_name'
