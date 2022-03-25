@@ -64,6 +64,8 @@ The example csv file provided in the repository is called *pdpa_predicates.csv*.
 
 It isn't necessary to save the output to a file. The predicates will just print to the console. This is fine if you're not going to use the output for anything, and you just want to view a small csv file with a few predicates.
 
+**Extracting predicates with saving**
+
 1. To extract the predicates without saving it to a separate file, enter this command in the terminal:
 
 `python pdpa_read_predicates.py pdpa_predicates.csv`
@@ -73,6 +75,8 @@ It isn't necessary to save the output to a file. The predicates will just print 
 You will see the output printed in the terminal.
 
 ![terminal output of predicates](/readmeimg/csv1.png)
+
+**Extracting and saving predicates into a separate file**
 
 3. Now let's save the output into a separate file.
 Assuming our output file will be called *preds*, enter this in the terminal:
