@@ -56,7 +56,7 @@ The models can be found [here](https://spacy.io/usage/models).
 
 At the moment you have a csv file that contains rows of predicates. The goal here is to extract the predicates and save them as lines of text in an input file.
 
-There are two things to first note:
+Before you start, there are two things to consider:
 - the name of your csv file
 - the filename that you want to save the output to
 
@@ -90,3 +90,5 @@ This creates the file preds, and saves the output from the command before *>* in
 `cat preds`
 
 ![terminal output of predicates](/readmeimg/csv2.png)
+
+You will notice that the first four lines contain metadata. This will be ignored at the next step, creating the conllu file.

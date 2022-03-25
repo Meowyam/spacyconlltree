@@ -20,8 +20,9 @@ filename = sys.argv[-1]
 open(filename + '.conllu', 'w').close()
 
 with open(filename) as input:
-  # for _ in range(4):
-  #   next(input)
+  if (input.readline() == "Index(['Predicates'], dtype='object')"):
+      for _ in range(4):
+         next(input)
   texts = input.readlines()
   for text in texts: #[:-1]:
     text = text.rstrip()
